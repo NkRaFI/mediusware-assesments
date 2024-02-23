@@ -35,7 +35,6 @@ const Problem1 = () => {
     useEffect(() => {
         if (show === "all") {
             const sortedData = taskList.sort(customSort)
-            console.log(sortedData)
             setFilteredTasks(sortedData)
         }
         if (show === "active") {
